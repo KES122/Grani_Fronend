@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.sectionButtonBelowProfile{
+    &__ourButtons{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+    }
+}
+
+.ourButtons{
+    &__But{
+        width: 210px;
+        height: 50px; 
+        border-radius: 10px;
+        background: rgba(108, 176, 176, 0.91);
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 800;
+        margin-bottom: 28px;
+
+    }
+    &__But1{
+        width: 325px;
+        height: 50px; 
+        border-radius: 10px;
+        background: rgba(108, 176, 176, 0.91);
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 800;
+    }
+}
