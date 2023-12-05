@@ -1,5 +1,7 @@
 import styles from './header.module.scss'
 import BtnHeader from './BtnRegistration'
+import BtnEnter from './BtnEnter'
+import MenuBurg from './burgerMenu/MenuBurg'
 
 const Header = () =>{
     return( 
@@ -27,7 +29,11 @@ const Header = () =>{
             </div>
 
             <BtnHeader />
+            <BtnEnter />
             
+            <img className={styles.mainSection__ShopIcon} src="icons/shopping-cartHeader.svg" alt="" />
+            <img src="icons/searchHeader.svg" alt="" />
+            <MenuBurg/>
         </section>
     );
 }

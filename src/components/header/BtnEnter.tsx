@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 import styles from './header.module.scss';
 
-const Modal = ({ onClose }: { onClose: () => void }) => {
+const LoginModal = ({ onClose, onLogin }: { onClose: () => void; onLogin: (email: string, password: string) => void; }) => {
   const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleRegister = () => {
-    if (!email || !phoneNumber || !password) {
-      setErrorMessage('Пожалуйста, заполните все поля');
+  const handleLogin = () => {
+    if (!email || !password) {
+      setErrorMessage('Пожалуйста, введите email и пароль');
     } else {
-      console.log('Email:', email);
-      console.log('Phone Number:', phoneNumber);
-      console.log('Password:', password);
-      setErrorMessage(''); 
+      setErrorMessage('');
+      onLogin(email, password);
       onClose();
     }
   };
@@ -23,7 +20,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
     <div className={styles.modal}>
       <div className={styles.modalContent}>
         <span className={styles.close} onClick={onClose}>&times;</span>
-        <h2 className={styles.titleModal}>Регистрация</h2>
+        <h2 className={styles.titleModal}>Вход</h2>
         <input
           className={styles.inputField}
           type="email"
@@ -33,26 +30,19 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
         />
         <input
           className={styles.inputField}
-          type="text"
-          placeholder="Номер телефона"
-          value={phoneNumber}
-          onChange={(e) => setPhoneNumber(e.target.value)}
-        />
-        <input
-          className={styles.inputField}
           type="password"
           placeholder="Пароль"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
         {errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
+        <button className={styles.btnSaveReg} onClick={handleLogin}>Войти</button>
       </div>
-      <button className={styles.btnSaveReg} onClick={handleRegister}>Зарегистрироваться</button>
     </div>
   );
 };
 
-const RegistrationButton = () => {
+const LoginButton = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleButtonClick = () => {
@@ -63,14 +53,20 @@ const RegistrationButton = () => {
     setShowModal(false);
   };
 
+  const handleLogin = (email: string, password: string) => {
+    console.log('Email:', email);
+    console.log('Password:', password);
+  };
+
   return (
     <div>
-      <button className={styles.btnRegister} onClick={handleButtonClick}>
-        <span>Регистрация</span>
+      <button className={styles.btnLogin} onClick={handleButtonClick}>
+        <span>Вход</span>
+        <img src="icons/iconEnter.svg" alt="" />
       </button>
-      {showModal && <Modal onClose={handleCloseModal} />}
+      {showModal && <LoginModal onClose={handleCloseModal} onLogin={handleLogin} />}
     </div>
   );
 };
 
-export default RegistrationButton;
+export default LoginButton;

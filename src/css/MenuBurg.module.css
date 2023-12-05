@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.hiddenMenu {
+  position: relative;
+  /* Дополнительные стили по необходимости */
+}
+
+.menuIcon {
+  cursor: pointer;
+  /* Стили для трех полосок, например: */
+}
+.menuIcon .bar {
+  width: 30px;
+  height: 4px;
+  margin: 6px 0;
+  background-color: #333;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.menuIcon.active .bar:first-child {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.menuIcon.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.menuIcon.active .bar:last-child {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menuContent {
+  position: fixed;
+  top: 0;
+  right: -50%; /* Начальное значение для сокрытия меню */
+  width: 50vw; /* 50% ширины экрана */
+  height: 100vh; /* 100% высоты экрана */
+  background-color: #fff;
+  transition: right 0.3s;
+  overflow-y: auto; /* Добавьте прокрутку по необходимости */
+}
+.menuContent.visible {
+  right: 0;
+}/*# sourceMappingURL=MenuBurg.module.css.map */
