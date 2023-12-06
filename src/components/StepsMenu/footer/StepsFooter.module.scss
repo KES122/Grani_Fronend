@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+$color-blue: #07014C;
+.footer{
+    &__monual{
+        display: flex;
+        align-items: center; 
+        margin-bottom: 10px;
+    }
+    &__img{
+        margin-right: 10px;
+    }
+    &__text{
+        font-size: 18px;
+        color: $color-blue;
+    }
+    &__hr{
+        margin-bottom: 20px;
+        border:none;
+        border: 1px solid grey
+    }
+    &__icons{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom: 15px;
+    }
+    &__endText{
+        font-size: 18px;
+        color:$color-blue;
+        text-align: center;
+    }
+}
+
+.icons{
+    &__item{
+        margin-right: 25px;
+        &:last-child{
+            margin: 0;
+        }
+    }
+}

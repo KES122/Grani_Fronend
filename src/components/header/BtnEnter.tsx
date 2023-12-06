@@ -62,7 +62,7 @@ const LoginButton = () => {
     <div>
       <button className={styles.btnLogin} onClick={handleButtonClick}>
         <span>Вход</span>
-        <img src="icons/iconEnter.svg" alt="" />
+        <img src="icons/icons-header/iconEnter.svg" alt="" />
       </button>
       {showModal && <LoginModal onClose={handleCloseModal} onLogin={handleLogin} />}
     </div>

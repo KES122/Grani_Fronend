@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainMenu {
+  max-width: 380px;
+  background-color: rgba(107, 177, 182, 0.55);
+  padding: 20px;
+}
+.mainMenu__mainIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainMenu__title {
+  font-size: 24px;
+  color: #07014c;
+}
+
+.menuSteps__steps {
+  margin-bottom: 10px;
+}
+.menuSteps__steps:last-child {
+  margin: 0;
+}
+.menuSteps__text {
+  text-decoration: none;
+  font-size: 18px;
+  color: #07014c;
+  position: relative;
+}
+.menuSteps__btnExit {
+  border: none;
+  width: 102.429px;
+  height: 37px;
+  background-color: #07014c;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 200px;
+}
+
+.btnExit__hr {
+  width: 50px;
+  position: absolute;
+  bottom: -1px;
+  margin-left: 20px;
+  border: none;
+  border-top: 2px solid;
+}
+
+.text__hr {
+  width: calc(100% - 0em);
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border-top: 2px solid #07014c;
+}/*# sourceMappingURL=StepsMenu.module.css.map */

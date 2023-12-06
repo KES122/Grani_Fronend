@@ -1,12 +1,9 @@
-@charset "UTF-8";
 .hiddenMenu {
   position: relative;
-  /* Дополнительные стили по необходимости */
 }
 
 .menuIcon {
   cursor: pointer;
-  /* Стили для трех полосок, например: */
 }
 .menuIcon .bar {
   width: 30px;
@@ -28,12 +25,12 @@
 .menuContent {
   position: fixed;
   top: 0;
-  right: -50%; /* Начальное значение для сокрытия меню */
-  width: 50vw; /* 50% ширины экрана */
-  height: 100vh; /* 100% высоты экрана */
+  right: -50%;
+  width: 50vw;
+  height: 100vh;
   background-color: #fff;
   transition: right 0.3s;
-  overflow-y: auto; /* Добавьте прокрутку по необходимости */
+  overflow-y: auto;
 }
 .menuContent.visible {
   right: 0;
