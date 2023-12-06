@@ -7,37 +7,34 @@
  
     width: 951.04px;
     height: 218.72px;
-   &__HeaderSection{
+    &__HeaderSection{
         display: flex;
         align-items: baseline;
         justify-content: space-between;
    }
-   &__applicationData
+    &__applicationData
    {
         display: flex;
         justify-content: space-between;
         margin-bottom: 63px;
    }
-   &__buttonSectionApplication{
+    &__buttonSectionApplication{
     
         display: flex;
         justify-content: center; 
         margin-bottom: 160px;
       
-        
+     
    }
 
 }
 .HeaderSection{
     &__titleAppli{
-        width: 630px;
-        height: 38px; 
+        
         color: #14164A;
-        font-family: Inter;
         font-size: 32px;
-        font-style: normal;
         font-weight: 600;
-        line-height: normal; 
+      
     };
     &__Edit{
         display: flex;
