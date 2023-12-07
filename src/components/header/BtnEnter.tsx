@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import styles from './header.module.scss';
 
-const LoginModal = ({ onClose, onLogin }: { onClose: () => void; onLogin: (email: string, password: string) => void; }) => {
+interface LoginModalProps {
+  onClose: () => void;
+  onLogin: (email: string, password: string) => void;
+}
+
+const LoginModal: React.FC<LoginModalProps> = ({ onClose, onLogin }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -42,7 +47,7 @@ const LoginModal = ({ onClose, onLogin }: { onClose: () => void; onLogin: (email
   );
 };
 
-const LoginButton = () => {
+const LoginButton: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleButtonClick = () => {

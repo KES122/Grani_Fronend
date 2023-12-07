@@ -19,6 +19,8 @@
 
 .menuSteps__steps {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 .menuSteps__steps:last-child {
   margin: 0;
@@ -28,6 +30,9 @@
   font-size: 18px;
   color: #07014c;
   position: relative;
+}
+.menuSteps__iconStep {
+  margin-right: 10px;
 }
 .menuSteps__btnExit {
   border: none;
@@ -52,11 +57,16 @@
   border-top: 2px solid;
 }
 
-.text__hr {
-  width: calc(100% - 0em);
+.text__underline {
+  position: relative;
+  text-decoration: none;
+}
+.text__underline::after {
+  content: "";
   position: absolute;
-  bottom: 0px;
-  margin: 0;
-  border: none;
-  border-top: 2px solid #07014c;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #07014c;
 }/*# sourceMappingURL=StepsMenu.module.css.map */

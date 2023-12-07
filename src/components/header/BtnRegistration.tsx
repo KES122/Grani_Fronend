@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import styles from './header.module.scss';
 
-const Modal = ({ onClose }: { onClose: () => void }) => {
+interface ModalProps {
+  onClose: () => void;
+}
+
+const Modal: React.FC<ModalProps> = ({ onClose }: ModalProps) => {
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [password, setPassword] = useState('');
@@ -14,7 +18,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
       console.log('Email:', email);
       console.log('Phone Number:', phoneNumber);
       console.log('Password:', password);
-      setErrorMessage(''); 
+      setErrorMessage('');
       onClose();
     }
   };
@@ -52,7 +56,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
   );
 };
 
-const RegistrationButton = () => {
+const RegistrationButton: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleButtonClick = () => {

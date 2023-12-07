@@ -18,9 +18,12 @@ $color-blue: #07014c;
     color: $color-blue;
   }
 }
+
 .menuSteps {
   &__steps {
     margin-bottom: 10px;
+    display: flex;
+    align-items:center;
     &:last-child {
       margin: 0;
     }
@@ -30,6 +33,9 @@ $color-blue: #07014c;
     font-size: 18px;
     color: $color-blue;
     position: relative;
+  }
+  &__iconStep{
+    margin-right: 10px;
   }
   &__btnExit {
     border: none;
@@ -56,12 +62,17 @@ $color-blue: #07014c;
   }
 }
 .text {
-  &__hr {
-    width: calc(100% - 0em);
-    position: absolute;
-    bottom: 0px;
-    margin: 0;
-    border: none;
-    border-top: 2px solid $color-blue;
+  &__underline {
+    position: relative;
+    text-decoration: none;
+    &::after{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -4px; 
+      width: 100%;
+      height: 2px;
+      background-color: $color-blue; 
+    }
   }
 }
