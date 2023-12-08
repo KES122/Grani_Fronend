@@ -1,10 +1,13 @@
-import ButtonsBellow from '../buttonsBelowProfile/ButtonsBelow'
-import JumpBottonStepOne from '../jumpButtonStep1/JumpButtonStep1'
-import TravelChapter from '../travelChapter/TravelChapter'
+import ButtonsBellow from './buttonsBelowProfile/ButtonsBelow'
+import JumpBottonStepOne from './jumpButtonStep1/JumpButtonStep1'
+import TravelChapter from './travelChapter/TravelChapter'
 import style from './application.module.scss'
+import InputNumber from './InputNumper/InputNumber'
+import React, { useState } from 'react';
 
 
-const Application = () => {
+const Application: React.FC=() => {
+    const [number, setNumber] = useState<number>(0);
     return (
 
         <section className={style.sectionApplication}>
@@ -35,7 +38,8 @@ const Application = () => {
 
                 <div className={style.applicationData__user}>
                     <p className={style.user__lab}>Вес</p>
-                    <input className={style.user__input} placeholder="777777" type="text" />
+                    {/*<input className={style.user__input} placeholder="777777" type="number" />*/}
+                    <InputNumber value={number} onChange={setNumber}/>
                 </div>
 
                 <div className={style.applicationData__user}>
@@ -45,7 +49,7 @@ const Application = () => {
 
                 <div className={style.applicationData__user}>
                     <p className={style.user__lab}>Роль</p>
-                    <input className={style.user__input} placeholder="Список" type="text" />
+                    <select className={style.user__input} placeholder="Список"  />
                 </div>
             </div>
 

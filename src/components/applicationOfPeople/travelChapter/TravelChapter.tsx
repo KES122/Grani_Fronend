@@ -1,6 +1,10 @@
+import InputAmount from '../InputAmount/InputAmount'
 import style from './travelChapter.module.scss'
+import React, { useState } from 'react';
 
-const TravelChapter = () => {
+const TravelChapter :React.FC = () => {
+    const [amount, setAmount] = useState<string>('');
+  
     return (
         <section className={style.travelChapter}>
             <div className={style.travelChapter__travelHeader}>
@@ -36,7 +40,8 @@ const TravelChapter = () => {
 
                     <div className={style.con2__details}>
                         <p className={style.details__par}>Примерная стоимость</p>
-                        <input className={style.details__inp} />
+                        {/*<input className={style.details__inp} />*/}
+                        <InputAmount value={amount} onChange={setAmount} />
                     </div>
 
                     <div className={style.con2__details}>
