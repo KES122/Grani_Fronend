@@ -10,11 +10,11 @@ const Header = () =>{
                 <div className={`${styles.mainSection__rectIcons} rectIcons`}>
                     <img className={styles.rectIcons__icon} src="icons/icons-header/phone.svg" alt="phone-icon"/>
                 </div>
-                <div className={`${styles.mainSection__rectIcons} rectIcons__Orange`}>
-                    <img className={styles.rectIcons__icon} src="icons/icons-header/mas.svg" alt="mas-icon"/>
+                <div className={`${styles.mainSection__rectIcons} ${styles.rectIcons} ${styles.rectIcons__Orange}`}>
+                    <img className={styles.rectIcons__icon} src="icons/icons-header/phone.svg" alt="phone-icon"/>
                 </div>
-                <div className={`${styles.mainSection__rectIcons} rectIcons__Yellow`}>
-                    <img className={styles.rectIcons__icon} src="icons/icons-header/tg.svg" alt="tg-icon"/>
+                <div className={`${styles.mainSection__rectIcons} ${styles.rectIcons} ${styles.rectIcons__Yellow}`}>
+                    <img className={styles.rectIcons__icon} src="icons/icons-header/mas.svg" alt="mas-icon"/>
                 </div>
             </div>
             <div className={styles.mainSection__city}>
@@ -32,7 +32,7 @@ const Header = () =>{
             <BtnEnter />
             
             <img className={styles.mainSection__ShopIcon} src="icons/icons-header/shopping-cartHeader.svg" alt="" />
-            <img src="icons/icons-header/searchHeader.svg" alt="" />
+            <img className={styles.mainSection__SearchIcon} src="icons/icons-header/searchHeader.svg" alt="" />
             <MenuBurg/>
         </section>
     );
