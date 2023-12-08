@@ -35,7 +35,7 @@ const TravelChapter :React.FC = () => {
 
                     <div className={style.con2__details}>
                         <p className={style.details__par}>Дата поездки</p>
-                        <select className={style.details__inp} />
+                        <input type='date' className={style.details__inp} />
                     </div>
 
                     <div className={style.con2__details}>
