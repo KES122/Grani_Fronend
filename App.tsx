@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.scss'
 import Header from './components/header/Header'
 import StepsMenu from './components/StepsMenu/StepsMenu'
-import Application from './components/applicationOfPeople/Application'
 // import './App.css'
 
 function App() {
@@ -11,7 +10,9 @@ function App() {
   return (
     <>
     <Header/>
+    
     <StepsMenu/>
+
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
