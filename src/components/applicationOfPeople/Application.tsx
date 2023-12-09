@@ -2,8 +2,6 @@ import ButtonsBellow from './buttonsBelowProfile/ButtonsBelow'
 import JumpBottonStepOne from './jumpButtonStep1/JumpButtonStep1'
 import TravelChapter from './travelChapter/TravelChapter'
 import style from './application.module.scss'
-
-
 const Application = () => {
     return (
 
@@ -50,14 +48,13 @@ const Application = () => {
             </div>
 
             <div className={style.sectionApplication__buttonSectionApplication}>
-
-                <button className={style.buttonSectionApplication__but} type='submit'>ДОБАВИТЬ УЧАСТНИКА</button>
-                <button className={style.buttonSectionApplication__but} type='submit'>ОТПРАВИТЬ ЗАЯВКУ</button>
-
+                <button className={style.buttonSectionApplication__but} type='submit'onClick={() => window.location.href = '/Forum'}>ДОБАВИТЬ УЧАСТНИКА</button>
+                <button className={style.buttonSectionApplication__but} type='submit'> <a href="">ОТПРАВИТЬ ЗАЯВКУ</a></button>
             </div>
             <ButtonsBellow />
-        </section>
 
+        </section>
+        
     )
 }
 export default Application

@@ -656,6 +656,11 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
+"@ungap/url-search-params@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@ungap/url-search-params/-/url-search-params-0.2.2.tgz#2de3bdec21476a9b70ef11fd7b794752f9afa04c"
+  integrity sha512-qQsguKXZVKdCixOHX9jqnX/K/1HekPDpGKyEcXHT+zR6EjGA7S4boSuelL4uuPv6YfhN0n8c4UxW+v/Z3gM2iw==
+
 "@vitejs/plugin-react@^4.2.0":
   version "4.2.0"
   resolved "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.2.0.tgz"
@@ -1671,6 +1676,14 @@ react-router-dom@^6.20.1:
   integrity sha512-npzfPWcxfQN35psS7rJgi/EW0Gx6EsNjfdJSAk73U/HqMEJZ2k/8puxfwHFgDQhBGmS3+sjnGbMdMSV45axPQw==
   dependencies:
     "@remix-run/router" "1.13.1"
+    react-router "6.20.1"
+
+react-router-native@^6.20.1:
+  version "6.20.1"
+  resolved "https://registry.yarnpkg.com/react-router-native/-/react-router-native-6.20.1.tgz#b455529e37064ebfdd14c49651a3f3d8d0ce88d2"
+  integrity sha512-/B9aCtueCR8ok5/wdSXf87KPranHf7OkR3ePklWgPKBsZ6L+9IOIFsaE9bB6B4P+pdOM9gV6w9qqxPUhnLsYeA==
+  dependencies:
+    "@ungap/url-search-params" "^0.2.2"
     react-router "6.20.1"
 
 react-router@6.20.1:

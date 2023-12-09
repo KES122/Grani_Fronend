@@ -3,6 +3,7 @@ import BtnHeader from './BtnRegistration'
 import BtnEnter from './BtnEnter'
 import MenuBurg from './burgerMenu/MenuBurg'
 
+
 const Header = () =>{
     return( 
         <section className={styles.mainSection}>
@@ -11,10 +12,10 @@ const Header = () =>{
                     <img className={styles.rectIcons__icon} src="icons/icons-header/phone.svg" alt="phone-icon"/>
                 </div>
                 <div className={`${styles.mainSection__rectIcons} ${styles.rectIcons} ${styles.rectIcons__Orange}`}>
-                    <img className={styles.rectIcons__icon} src="icons/icons-header/phone.svg" alt="phone-icon"/>
+                    <img className={styles.rectIcons__icon} src="icons/icons-header/mas.svg" alt="phone-icon"/>
                 </div>
                 <div className={`${styles.mainSection__rectIcons} ${styles.rectIcons} ${styles.rectIcons__Yellow}`}>
-                    <img className={styles.rectIcons__icon} src="icons/icons-header/mas.svg" alt="mas-icon"/>
+                    <img className={styles.rectIcons__icon} src="icons/icons-header/tg.svg" alt="mas-icon"/>
                 </div>
             </div>
             <div className={styles.mainSection__city}>
