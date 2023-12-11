@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+}
+body{margin: 0;}
+.applicationPage3 {
+    &__mainImg {
+        height: 393px;
+        background-image: url(../img/page3_photo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__butBotton {
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+.TitlePage3 {
+    &__h1 {
+        color: #14164A;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    &__h3 {
+        color: #14164A;
+        font-size: 36px;
+        font-weight: 700;
+    }
+}
+
+.butBotton {
+    &__buB {
+        border-radius: 30px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #6FD2D2;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        width: 400px;
+        height: 100px;
+        margin-bottom: 85px;
+
+    }
+}

@@ -1,4 +1,4 @@
-import InputAmount from '../InputAmount/InputAmount'
+import InputAmount from '../../InputAmount/InputAmount'
 import style from './travelChapter.module.scss'
 import React, { useState } from 'react';
 

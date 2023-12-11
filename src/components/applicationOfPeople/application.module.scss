@@ -5,8 +5,7 @@
 
 .sectionApplication{
  
-    width: 951.04px;
-    height: 218.72px;
+    
     &__HeaderSection{
         display: flex;
         align-items: baseline;
@@ -94,9 +93,8 @@ p{
         
         margin: 0 10px;
         border-radius: 10px;
+        border: 0;
         background: rgba(108, 176, 176, 0.91);
-        width: 233px;
-        height: 39px; 
         color: #FFF;
         font-size: 16px;
         font-weight: 800;
