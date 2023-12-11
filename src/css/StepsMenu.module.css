@@ -6,6 +6,7 @@
   max-width: 380px;
   background-color: rgba(107, 177, 182, 0.55);
   padding: 20px;
+  position: relative;
 }
 .mainMenu__mainIcon {
   display: flex;
@@ -45,7 +46,7 @@
   font-size: 18px;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-bottom: 200px;
+  margin-bottom: 550px;
 }
 
 .btnExit__hr {
@@ -69,4 +70,12 @@
   width: 100%;
   height: 2px;
   background-color: #07014c;
+}
+
+.rigthWrapper {
+  padding-right: 20px;
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  z-index: 0;
 }/*# sourceMappingURL=StepsMenu.module.css.map */
