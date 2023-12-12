@@ -2,7 +2,7 @@ import ButtonsBellow from './buttonsBelowProfile/ButtonsBelow'
 import JumpBottonStepOne from './jumpButtonStep1/JumpButtonStep1'
 import TravelChapter from './travelChapter/TravelChapter'
 import style from './application.module.scss'
-import InputNumber from '../InputNumper/InputNumber'
+import InputNumber from '../../InputNumper/InputNumber'
 import React, { useState } from 'react';
 
 

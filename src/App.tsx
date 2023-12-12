@@ -1,14 +1,18 @@
 import './App.css'
-// import ApplicationPage3 from './components/applicationPage3/applicationPage3'
-import Application from './components/applicationOfPeople/Application'
+import VenueReservationPage3 from './components/step2/venueReservationPage3/venueReservationPage3'
+// import ApplicationPage3 from './components/step1/applicationPage3/applicationPage3'
+// import Application from './components/step1/applicationOfPeople/Application'
+
+
 
 
 function App() {
   return (
-    //Коммент Application чтобы отобразить другую страницу для просмотра результата, пока только так(
+    //Коммент чтобы отобразить другую страницу для просмотра результата, пока только так(
     <>
-      <Application /> 
-      {/* <ApplicationPage3/> */}
+    {/* <Application/> */}
+    {/* <ApplicationPage3/> */}
+    <VenueReservationPage3/>
     </>
   )
 }

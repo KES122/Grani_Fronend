@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainSection {
+    display: flex;
+    
+    
+
+
+
+}
+
+.venueReservationPage3 {
+    display: flex;
+    padding: 45px;
+    
+    
+}
+
+.MainPart {
+    &__titlePart {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__buttonsUnderTheTitle {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.buttonsUnderTheTitle {
+    &__rightPart {
+        display: flex;
+    }
+
+}
+
+.LeftPart {
+    &__Edit {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.Edit {
+    &__editIco {
+        width: 29px;
+        height: 22px;
+
+    }
+
+    &__TextEdit {
+        color: #000000;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+.titlePart {
+    &__title {
+        color: #091866;
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+}

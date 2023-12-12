@@ -1,5 +1,5 @@
 import style from './applicationForm3.module.scss'
-import InputNumber from '../../InputNumper/InputNumber'
+import InputNumber from '../../../InputNumper/InputNumber';
 import React, { useState } from 'react';
 
 const ApplicationForm3: React.FC = () => {
