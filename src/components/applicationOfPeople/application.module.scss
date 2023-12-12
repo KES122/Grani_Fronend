@@ -1,103 +1,111 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 
-.sectionApplication{
- 
-    
-    &__HeaderSection{
+.sectionApplication {
+
+
+    &__HeaderSection {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
-   }
-    &__applicationData
-   {
+    }
+
+    &__applicationData {
         display: flex;
         justify-content: space-between;
         margin-bottom: 63px;
-   }
-    &__buttonSectionApplication{
-    
+    }
+
+    &__buttonSectionApplication {
+
         display: flex;
-        justify-content: center; 
+        justify-content: center;
         margin-bottom: 160px;
-      
-     
-   }
+
+
+    }
 
 }
-.HeaderSection{
-    &__titleAppli{
-        
+
+.HeaderSection {
+    &__titleAppli {
+
         color: #14164A;
         font-size: 32px;
         font-weight: 600;
-      
-    };
-    &__Edit{
+
+    }
+
+    ;
+
+    &__Edit {
         display: flex;
-        align-items: center;          
+        align-items: center;
     }
 }
-.Edit{
-    &__editIco{
+
+.Edit {
+    &__editIco {
         width: 29px;
         height: 22px;
-        
+
     }
 
-    &__TextEdit{
+    &__TextEdit {
         color: #000000;
         font-size: 16px;
-        text-decoration:none;
+        text-decoration: none;
     }
 }
 
-.applicationData{
-    &__photo{
+.applicationData {
+    &__photo {
         background-color: #D9D9D9;
         width: 70px;
         height: 70px;
         border-radius: 20px;
-    } 
-   
-   
+    }
+
+
 }
-.user{
-    &__input{
+
+.user {
+    &__input {
         width: 145px;
         height: 37px;
         border-radius: 10px;
         background: #D9D9D9;
     }
-    &__lab{
+
+    &__lab {
         display: flex;
         justify-content: flex-start;
         color: #000;
         font-size: 16px;
-        font-weight: 700; 
+        font-weight: 700;
     }
 }
 
-p{
-    
+p {
+
     margin: 0;
     margin-bottom: 10px;
 }
 
-.buttonSectionApplication{
-   
+.buttonSectionApplication {
 
-    &__but{
-        
+
+    &__but {
         margin: 0 10px;
         border-radius: 10px;
-        border: 0;
         background: rgba(108, 176, 176, 0.91);
+        width: 233px;
+        height: 39px;
         color: #FFF;
         font-size: 16px;
         font-weight: 800;
-       
-    }    
+
+    }
 }

@@ -26,20 +26,20 @@ const FaqPage3: React.FC = () => {
 
                 <div className={style.buttonContainer__divB}>
                     <h3 className={style.divB__tit}>У моего ребенка аллергия будет ли это проблемой на выезде?</h3>
-                    <button className={style.divB__butt} onClick={handleButtonClick}>Открыть ответ</button>
+                    <button className={style.divB__butt} onClick={handleButtonClick}><p className={style.divB__pp}>Открыть ответ</p></button>
                     {isTextVisible && <p className={style.divB__txt}>Нет! Любые особенности питания обсуждаются с местом<br/>
                         проведения и питания, а после я лично слежу за питанием детей. </p>}
                 </div>
 
                 <div className={style.buttonContainer__divB}>
                     <h3 className={style.divB__tit}>Можно ли разделить оплату за мероприятие на несколько частей?</h3>
-                    <button className={style.divB__butt} onClick={handleButtonClick1}>Открыть ответ</button>
+                    <button className={style.divB__butt} onClick={handleButtonClick1}><p className={style.divB__pp}>Открыть ответ</p></button>
                     {isTextVisible1 && <p className={style.divB__txt}>BIMBIMBAMBAM</p>}
                 </div>
 
                 <div className={style.buttonContainer__divB}>
                     <h3 className={style.divB__tit}>Чем будут заняты дети в течении дня?</h3>
-                    <button className={style.divB__butt} onClick={handleButtonClick2}>Открыть ответ</button>
+                    <button className={style.divB__butt} onClick={handleButtonClick2}><p className={style.divB__pp}>Открыть ответ</p></button>
                     {isTextVisible2 &&  <p className={style.divB__txt}>BIMBIMBAMBAM</p>}
                 </div>
 
