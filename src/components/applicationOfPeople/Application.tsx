@@ -49,7 +49,7 @@ const Application = () => {
 
             <div className={style.sectionApplication__buttonSectionApplication}>
                 <button className={style.buttonSectionApplication__but} type='submit'onClick={() => window.location.href = '/Forum'}>ДОБАВИТЬ УЧАСТНИКА</button>
-                <button className={style.buttonSectionApplication__but} type='submit'> <a href="">ОТПРАВИТЬ ЗАЯВКУ</a></button>
+                <button className={style.buttonSectionApplication__but} type='submit'onClick={() => window.location.href = '/Cards-area'}>ОТПРАВИТЬ ЗАЯВКУ</button>
             </div>
             <ButtonsBellow />
 
