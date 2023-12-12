@@ -1,10 +1,12 @@
 import React from 'react'
-import Button from './components/Button'
+import FloorCarts from './components/Floor carts/FloorCarts'
+// import Button from './components/Button'
 
 const App = () => {
   return (
     <div >   
-      <Button />
+      {/* <Button /> */}
+      <FloorCarts/>
     </div>
   )
 }
