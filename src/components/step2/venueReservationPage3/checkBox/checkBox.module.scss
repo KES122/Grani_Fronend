@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.checkBox {
+    &__checkBoxComponent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__checkBoxDescription {
+        margin-left: 25px;
+    }
+}
+
+.checkBoxDescription {
+    &__p {
+        color: #000;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 600;
+        
+    }
+}
+
+.headerBox {
+    &__title {
+        display: flex;
+        height: 28px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+
+        color: #000;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    &__inputCheck {
+        height: 28px;
+        width: 28px
+    }
+}
+
+.checkBoxComponent {
+    &__checkBoxTitle {
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+}

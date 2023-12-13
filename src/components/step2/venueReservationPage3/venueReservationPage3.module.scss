@@ -13,10 +13,12 @@
 
 .venueReservationPage3 {
     display: flex;
+    flex-direction: column;
     padding-left: 50px;
 
 
 }
+
 
 .MainPart {
     &__titlePart {

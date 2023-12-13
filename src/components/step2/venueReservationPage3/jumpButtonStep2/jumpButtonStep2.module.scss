@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.JumpBottonStepTwo{
+    margin-top: 40px;
+}
+.buttonStyleStepTwo{
+    
+    &__buttJump{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 370px;
+        height: 51px; 
+        background-color: #6BB1B68C;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 14px; 
+    }
+}

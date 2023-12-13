@@ -1,6 +1,8 @@
 import style from './venueReservationPage3.module.scss'
 import Header from '../../header/Header'
 import StepsMenu from '../../StepsMenu/StepsMenu'
+import JumpBottonStepTwo from './jumpButtonStep2/jumpButtonStep2'
+import CheckBox from './checkBox/checkBox'
 
 const VenueReservationPage3 = () => {
     return (
@@ -12,7 +14,8 @@ const VenueReservationPage3 = () => {
                 </div>
 
                 <section className={style.venueReservationPage3}>
-
+                   
+                    <JumpBottonStepTwo/>
                     <div className={style.venueReservationPage3__MainPart}>
                         <div className={style.MainPart__titlePart}>
                             <h1 className={style.titlePart__title}>Чек-лист по бронированию площадки</h1>
@@ -37,6 +40,7 @@ const VenueReservationPage3 = () => {
 
                         </div>
                     </div>
+                    <CheckBox/>
                 </section>
             </div>
         </>
