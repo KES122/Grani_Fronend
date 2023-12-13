@@ -8,6 +8,12 @@ $color-yellow: #f4d561;
 
 body {
   margin: 0;
+  
+}
+
+@font-face {
+  font-family:"Inter-Bol" ;
+  src: url(../fonts/Inter-Bold.ttf);
 }
 
 .mainSection {
@@ -45,6 +51,7 @@ body {
     font-size: 32px;
     margin: 0;
     position: relative;
+    font-family:"Inter-Bol" ;
   }
   &__mainIcon {
     display: block;
@@ -106,6 +113,7 @@ body {
 .titleModal {
   font-size: 24px;
   text-align: center;
+  font-family:"Inter-Bol" ;
 }
 .modalContent {
   display: flex;
@@ -121,6 +129,7 @@ body {
   border-radius: 10px;
   margin-right: 20px;
   cursor: pointer;
+  font-family:"Inter-Bol";
   transition: transform 0.3s, box-shadow 0.3s;
   &:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
@@ -147,6 +156,7 @@ body {
   height: 36px;
   border-radius: 10px;
   margin: 20px;
+  font-family:"Inter-Bol" ;
 }
 .btnLogin {
   display: flex;
@@ -161,6 +171,7 @@ body {
   color: #64b3b8;
   font-size: 18px;
   margin-right: 30px;
+  font-family:"Inter-Bol" ;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
   &:hover {

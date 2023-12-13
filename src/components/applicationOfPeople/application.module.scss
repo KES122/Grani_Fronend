@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:"Inter-Bol" ;
+    src: url(../fonts/Inter-Bold.ttf);
+  }
 
 .sectionApplication{
  
@@ -34,6 +38,7 @@
         color: #14164A;
         font-size: 32px;
         font-weight: 600;
+        font-family:"Inter-Bol" ;
       
     };
     &__Edit{
@@ -52,6 +57,7 @@
         color: #000000;
         font-size: 16px;
         text-decoration:none;
+        font-family:"Inter-Bol" ;
     }
 }
 
@@ -79,6 +85,7 @@
         color: #000;
         font-size: 16px;
         font-weight: 700; 
+        font-family:"Inter-Bol" ;
     }
 }
 
@@ -100,6 +107,7 @@ p{
         height: 39px; 
         color: #FFF;
         font-size: 16px;
+        font-family:"Inter-Bol" ;
        
     }    
 }

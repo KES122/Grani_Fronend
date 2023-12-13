@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family:"Inter-Bol" ;
+    src: url(../fonts/Inter-Bold.ttf);
+  }
+
 .JumpBottonStepOne{
     &__buttonStyleDiv{
         margin-bottom: 50px;
@@ -19,6 +25,7 @@
         font-size: 14px;
         font-weight: 700;
         border-radius: 10px;
+        font-family:"Inter-Bol" ;
         
     }
     &__img{

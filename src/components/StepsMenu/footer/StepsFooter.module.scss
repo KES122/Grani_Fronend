@@ -1,7 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family:"Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
+
 $color-blue: #07014c;
+
 .footer {
   &__monual {
     display: flex;
@@ -14,6 +21,7 @@ $color-blue: #07014c;
   &__text {
     font-size: 18px;
     color: $color-blue;
+    font-family:"Inter-Bol" ;
   }
   &__hr {
     margin-bottom: 20px;
@@ -30,6 +38,7 @@ $color-blue: #07014c;
     font-size: 18px;
     color: $color-blue;
     text-align: center;
+    font-family:"Inter-Bol" ;
   }
 }
 
