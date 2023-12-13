@@ -31,8 +31,8 @@ const VenueReservationPage3 = () => {
                             </div>
 
                             <div className={style.buttonsUnderTheTitle__rightPart}>
-                                <button className={style.rightPart__resettlement}>Расселение</button>
-                                <button className={style.rightPart__siteDatabase}>База площадок</button>
+                                <button className={style.rightPart__buttonRight}>Расселение</button>
+                                <button className={style.rightPart__buttonRight}>База площадок</button>
                             </div>
 
                         </div>
