@@ -44,7 +44,7 @@ const CheckBox = () => {
 
                     <div className={style.checkBox__checkBoxComponent}>
                         <input type='checkbox' className={style.checkBoxComponent__inputCheck} />
-                        <p className={style.checkBoxComponent__checkBoxTitle}>Есть ли какое либо встроенное оборудование в комнатах, например, подвесной проектор, интерактивные доски, экраны?</p>
+                        <p className={style.checkBoxComponent__checkBoxTitle}>Включена ли стоимость пользования аудиовизуальными средствами в арендную плату?</p>
                     </div>
 
                     <div className={style.checkBox__checkBoxDescription}>
@@ -57,7 +57,7 @@ const CheckBox = () => {
                     </div>
 
                     <div className={style.checkBox__checkBoxComponent}>
-                        <input type='checkbox' className={style.checkBoxComponent__inputCheck} />
+                        <input type='checkbox'  className={style.checkBoxComponent__inputCheck} />
                         <p className={style.checkBoxComponent__checkBoxTitle}>Есть ли лекционная трибуна? Можно ли выбрать кафедру? Возможно ли их увидеть?</p>
                     </div>
 

@@ -37,8 +37,9 @@
     }
 
     &__inputCheck {
-        height: 28px;
-        width: 28px
+        min-width: 50px;    
+        min-height: 50px;
+        
     }
 }
 
