@@ -1,6 +1,5 @@
 import styles from "./StepsMenu.module.scss";
 import StepsFooter from "./footer/StepsFooter";
-import Application from "../applicationOfPeople/Application";
 
 const StepsMenu = () => {
   return (
@@ -33,7 +32,7 @@ const StepsMenu = () => {
           <div className={styles.menuSteps__steps}>
             <img className={styles.menuSteps__iconStep} src="icons/icons-steps-menu/icons-steps/Icon-step3.svg" alt="" />
             <a className={styles.menuSteps__text} href="#">
-              <span className={styles.text__underline}>3 шаг-логистика</span>
+              <span className={styles.text__underline} onClick={() => window.location.href = '/Settlement'}>3 шаг-логистика</span>
             </a>
           </div>
           <div className={styles.menuSteps__steps}>
@@ -97,9 +96,6 @@ const StepsMenu = () => {
         </div>
       
       <StepsFooter/>
-      </div>
-      <div className={styles.rigthWrapper}>
-          <Application/>
       </div>
     </section>
   );

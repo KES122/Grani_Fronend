@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Inter-Bol" ;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+.sectionAll{
+    display: flex;
+    &__Settelement{
+        margin: 0 auto;
+    }
+    &__title{
+        color:#000230;
+        font-family:"Inter-Bol";
+        font-size: 45px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    &__btns{
+        display: flex;
+        justify-content: space-between;
+    }
+}

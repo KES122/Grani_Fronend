@@ -14,11 +14,20 @@
 .sectionCardsArea{
     padding: 20px;
     &__cardBox{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+    &__cardsItem{
         width: 334px;
         height: 430px;
         border-radius: 20px;
         border: 1px solid rgb(229, 229, 229);
         position: relative;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     }
     
 }
@@ -36,7 +45,7 @@
         justify-content: center;
         background-color: rgb(242, 242, 242);
         top: 190px;
-        left: 290px
+        left: 270px
     }
     &__img{
         margin-bottom: 20px;
@@ -79,7 +88,7 @@
         margin-bottom: 40px;
     }
     &__moreDetailed{
-        color:purple
+        color:#BE96D1;
         
     }
 }
