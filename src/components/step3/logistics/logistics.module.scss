@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.MainSectionLogistics {
+    display: flex;
+
+    &__RightWrap {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+}
+
+.TopPartSection {
+    &__titl {
+        color: #0A1641;
+        text-align: center;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__Buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.Buttons {
+    &__Edit {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.RightButton {
+    &__but {
+        width: 215px;
+        height: 65px;
+        border-radius: 12px;
+        background: #6BB0B6;
+
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+    .Edit {
+        
+        &__editIco {
+            width: 50px;
+            height: 38px;
+
+        }
+
+        &__TextEdit {
+            color: #000000;
+            font-size: 28px;
+            text-decoration: none;
+        }
+    }

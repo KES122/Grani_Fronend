@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.buttonStyleStep3{
+    
+    &__buttJump{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 300px;
+        height: 51px; 
+        background-color: #6BB1B68C;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 700;
+        border-radius: 10px;
+        
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 30px; 
+    }
+}

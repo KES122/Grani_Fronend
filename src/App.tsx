@@ -1,8 +1,8 @@
 import './App.css'
-import VenueReservationPage3 from './components/step2/venueReservationPage3/venueReservationPage3'
+import Logistics from './components/step3/logistics/logistics'
+// import VenueReservationPage3 from './components/step2/venueReservationPage3/venueReservationPage3'
 // import ApplicationPage3 from './components/step1/applicationPage3/applicationPage3'
 // import Application from './components/step1/applicationOfPeople/Application'
-
 
 
 
@@ -12,7 +12,8 @@ function App() {
     <>
     {/* <Application/> */}
     {/* <ApplicationPage3/> */}
-    <VenueReservationPage3/>
+    {/* <VenueReservationPage3/> */}
+      <Logistics/>
     </>
   )
 }
