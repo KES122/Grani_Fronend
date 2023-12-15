@@ -15,7 +15,7 @@ const Page2 = () => {
         Спортивные сборы по футболу          
         </h1>
         <p className={styles.mainSection__textDate}>С 10 по 13 сентября</p>
-        <button className={styles.mainSection__btnСost}>Примерная стоимость: <br />
+        <button className={styles.mainSection__btnСost} onClick={() => window.location.href = '/Page3'} >Примерная стоимость: <br />
             15.000 рублей
         </button>
         <h2 className={styles.mainSection__titleVenue}>Примерное место проведения</h2>

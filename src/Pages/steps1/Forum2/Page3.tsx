@@ -1,6 +1,9 @@
+import ApplicationPage3 from "./applicationPage3";
+
+
 const Page3 = () =>{
     return(
-        <h1>Hellow!</h1>
+        <ApplicationPage3/>
     )
 }
 export default Page3

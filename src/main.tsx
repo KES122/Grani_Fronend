@@ -8,7 +8,7 @@ import Page2 from "./Pages/steps1/Forum/Page2.tsx";
 import CardsArea from "./Pages/steps2/Cards-area/Cards-area.tsx";
 import Settelement from "./Pages/steps3/Settlement/Settlement.tsx";
 import BackBtn from "./Pages/steps3/Settlement/btn-back/BackBtn.tsx";
-
+import Page3 from "./Pages/steps1/Forum2/Page3.tsx";
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -22,17 +22,22 @@ const router = createBrowserRouter([
         element: <Page2 />,
       },
       {
+        path: '/Forum2',
+        element: <Page3 />
+      },
+      {
         path: "/Cards-area",
         element: <CardsArea/>,
       },
       {
         path: "/Settlement",
-        element: <Settelement/>
+        element: <Settelement/>,
       },
       {
         path: "/BackBtn",
-        element: <BackBtn/>
+        element: <BackBtn/>,
       },
+     
     ],
   },
 ]);
