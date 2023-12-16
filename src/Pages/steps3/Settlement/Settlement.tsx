@@ -5,7 +5,7 @@ import BackBtn from "./btn-back/BackBtn";
 import BtnAutomatic from "./btn-automatic/Btn-automatic";
 import BtnPrint from "./btn-print/BtnPrint";
 
-const Settelement = () => {
+const Settlement: React.FC = () => {
   return (
     <>
       <Header />
@@ -98,4 +98,4 @@ const Settelement = () => {
     </>
   );
 };
-export default Settelement;
+export default Settlement;

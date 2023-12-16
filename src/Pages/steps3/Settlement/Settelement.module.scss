@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
+    margin-bottom: 30px;
   }
   &__cardsBox {
     display: flex;
@@ -84,10 +85,11 @@
     width: 33px;
   }
   &__TextEdit {
-    color: #000000;
+    color: #000230 ;
     font-size: 20px;
     text-decoration: none;
     font-family: "Inter-Bol";
+    
   }
 }
 
