@@ -56,7 +56,7 @@
   &__fullCard {
     max-width: 280px;
   }
-  &__fullCardAdd{
+  &__fullCardAdd {
     max-width: 120px;
   }
 
@@ -68,7 +68,7 @@
     position: relative;
     margin-bottom: 15px;
   }
-  &__cardsItemPeopls{
+  &__cardsItemPeopls {
     background-color: #d4d4d4b8;
     width: 280px;
     height: 310px;
@@ -76,7 +76,7 @@
     padding: 20px;
     margin-bottom: 20px;
   }
-  &__cardsBox{
+  &__cardsBox {
     margin-bottom: 100px;
   }
 }
@@ -85,11 +85,10 @@
     width: 33px;
   }
   &__TextEdit {
-    color: #000230 ;
+    color: #000230;
     font-size: 20px;
     text-decoration: none;
     font-family: "Inter-Bol";
-    
   }
 }
 
@@ -123,56 +122,54 @@
     font-family: "Inter-Bol";
     margin: 0;
   }
-  
 }
-.fullCardAdd{
-    &__addCard{
-        font-family: "Inter-Bol";
-        margin: 0;
-        font-size: 12px;
-        text-align: center;
-      }
+.fullCardAdd {
+  &__addCard {
+    font-family: "Inter-Bol";
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+  }
 }
-.plus{
-    
-    &__vertical{
-        width: 3px;
-        height: 60px;
-        background: black;
-        position: absolute;
-        top: 35px;
-        left: 50%
-    }
-    &__horizontal{
-        width: 60px;
-        height: 3px;
-        background: black;
-        position: absolute;
-        top: 50%;
-        left: 30px 
-    }
+.plus {
+  &__vertical {
+    width: 3px;
+    height: 60px;
+    background: black;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+  }
+  &__horizontal {
+    width: 60px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+  }
 }
-.cardsItemPeopls{
-    &__title{
-        font-family: "Inter-Bol";
-        color:#000230;
-        font-size: 30px;
-        margin: 0;
-        margin-bottom: 15px;
-    }
-    &__FioPeopls{
-        background-color: white;
-        width: 220px;
-        height: 45px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-    &__text{
-        margin: 0;
-        font-family: "Inter-Bol";
-        font-size: 14px;
-    }
+.cardsItemPeopls {
+  &__title {
+    font-family: "Inter-Bol";
+    color: #000230;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  &__FioPeopls {
+    background-color: white;
+    width: 220px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  &__text {
+    margin: 0;
+    font-family: "Inter-Bol";
+    font-size: 14px;
+  }
 }

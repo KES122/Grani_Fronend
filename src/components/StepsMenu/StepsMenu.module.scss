@@ -3,18 +3,18 @@
 }
 
 @font-face {
-  font-family:"Inter-Bol" ;
+  font-family: "Inter-Bol";
   src: url(../fonts/Inter-Bold.ttf);
 }
-
 
 $color-blue: #07014c;
 .mainMenu {
   width: 460px;
   background-color: rgba(107, 177, 182, 0.55);
   padding: 20px;
+  min-height: 1135px;
   position: relative;
-  
+
   &__mainIcon {
     display: flex;
     align-items: center;
@@ -23,15 +23,14 @@ $color-blue: #07014c;
   &__title {
     font-size: 24px;
     color: $color-blue;
-    font-family:"Inter-Bol";
-    
+    font-family: "Inter-Bol";
   }
-  &__mainTitle{
-    font-family:"Inter-Bol" ;
+  &__mainTitle {
+    font-family: "Inter-Bol";
     font-size: 26px;
   }
 }
-.whiteBackground{
+.whiteBackground {
   background: white;
   border-radius: 10px;
   height: 50px;
@@ -41,7 +40,7 @@ $color-blue: #07014c;
   &__steps {
     margin-bottom: 20px;
     display: flex;
-    align-items:center;
+    align-items: center;
     &:last-child {
       margin: 0;
     }
@@ -51,9 +50,9 @@ $color-blue: #07014c;
     font-size: 18px;
     color: $color-blue;
     position: relative;
-    font-family:"Inter-Bol" ;
+    font-family: "Inter-Bol";
   }
-  &__iconStep{
+  &__iconStep {
     margin-right: 10px;
   }
   &__btnExit {
@@ -68,9 +67,8 @@ $color-blue: #07014c;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
     margin-bottom: 550px;
-    font-family:"Inter-Bol" ;
+    font-family: "Inter-Bol";
   }
-  
 }
 
 .btnExit {
@@ -87,18 +85,18 @@ $color-blue: #07014c;
   &__underline {
     position: relative;
     text-decoration: none;
-    &::after{
-      content: '';
+    &::after {
+      content: "";
       position: absolute;
       left: 0;
-      bottom: -4px; 
+      bottom: -4px;
       width: 100%;
       height: 2px;
-      background-color: $color-blue; 
+      background-color: $color-blue;
     }
   }
 }
-.rigthWrapper{
+.rigthWrapper {
   padding-right: 20px;
   position: absolute;
   top: 180px;

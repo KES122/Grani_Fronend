@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-import styles from './StepsMenu.module.scss';
-import StepsFooter from './footer/StepsFooter';
+import styles from "./StepsMenu.module.scss";
+import StepsFooter from "./footer/StepsFooter";
 
 interface Step {
   id: number;
@@ -14,22 +14,26 @@ const StepsMenu = () => {
   const navigate = useNavigate();
 
   const steps: Step[] = [
-    { id: 1, title: '1 шаг-анкета', path: '/' },
-    { id: 2, title: '2 шаг-бронь площадки', path: '/Cards-area' },
-    { id: 3, title: '3 шаг-логистика', path: '/Settlement' },
-    { id: 4, title: '4 шаг-расписание', path: '/Settlement' },
-    { id: 5, title: '5 шаг-документация', path: '/Settlement' },
-    { id: 6, title: '6 шаг-оплата', path: '/Settlement' },
-    { id: 7, title: '7 шаг-инвентарь', path: '/Settlement' },
-    { id: 8, title: '8 шаг-турнирная сетка', path: '/Settlement' },
-    { id: 9, title: '9 шаг-исполнители', path: '/Settlement' },
-    { id: 10, title: '10 шаг-проведение выезда', path: '/Settlement' },
-    { id: 11, title: '11 шаг-награждение', path: '/Settlement' },
-    { id: 12, title: '12 шаг-отчёт о проведении', path: '/Settlement' },
+    { id: 1, title: "1 шаг-анкета", path: "/" },
+    { id: 2, title: "2 шаг-бронь площадки", path: "/Cards-area" },
+    { id: 3, title: "3 шаг-логистика", path: "/Settlement" },
+    { id: 4, title: "4 шаг-расписание", path: "/Settlement" },
+    { id: 5, title: "5 шаг-документация", path: "/Settlement" },
+    { id: 6, title: "6 шаг-оплата", path: "/Settlement" },
+    { id: 7, title: "7 шаг-инвентарь", path: "/Settlement" },
+    { id: 8, title: "8 шаг-турнирная сетка", path: "/Settlement" },
+    { id: 9, title: "9 шаг-исполнители", path: "/Settlement" },
+    { id: 10, title: "10 шаг-проведение выезда", path: "/Settlement" },
+    { id: 11, title: "11 шаг-награждение", path: "/Settlement" },
+    { id: 12, title: "12 шаг-отчёт о проведении", path: "/Settlement" },
   ];
 
-  const activeStepId = steps.find(step => location.pathname === step.path)?.id;
-  const [activeStep, setActiveStep] = useState<number | null>(activeStepId || null);
+  const activeStepId = steps.find(
+    (step) => location.pathname === step.path
+  )?.id;
+  const [activeStep, setActiveStep] = useState<number | null>(
+    activeStepId || null
+  );
 
   const handleStepClick = (stepPath: string, stepId: number) => {
     setActiveStep(stepId);
@@ -46,8 +50,8 @@ const StepsMenu = () => {
 
   return (
     <section>
-       <div className={styles.mainMenu}>
-      <div className={styles.mainMenu__mainIcon}>
+      <div className={styles.mainMenu}>
+        <div className={styles.mainMenu__mainIcon}>
           <img src="icons/icons-steps-menu/main-icon2_StepsMenu.svg" alt="" />
           <h1 className={styles.mainMenu__mainTitle}>
             МОИ <br />
@@ -63,12 +67,12 @@ const StepsMenu = () => {
             <div
               key={step.id}
               className={`${styles.menuSteps__steps} ${
-                activeStep === step.id ? styles.activeStep : ''
-              } ${activeStep === step.id ? styles.whiteBackground : ''}`}
+                activeStep === step.id ? styles.activeStep : ""
+              } ${activeStep === step.id ? styles.whiteBackground : ""}`}
               onMouseEnter={() => handleStepMouseEnter(step.id)}
               onMouseLeave={handleStepMouseLeave}
             >
-               <img
+              <img
                 className={styles.menuSteps__iconStep}
                 src={`icons/icons-steps-menu/icons-steps/Icon-step${step.id}.svg`}
                 alt=""
@@ -80,7 +84,7 @@ const StepsMenu = () => {
               >
                 <span className={styles.text__underline}>{step.title}</span>
               </a>
-            </div> 
+            </div>
           ))}
           <button className={styles.menuSteps__btnExit}>
             выйти
@@ -95,11 +99,6 @@ const StepsMenu = () => {
 };
 
 export default StepsMenu;
-
-
-
-
-
 
 // import styles from "./StepsMenu.module.scss";
 // import StepsFooter from "./footer/StepsFooter";
@@ -197,15 +196,10 @@ export default StepsMenu;
 //             <hr className={styles.btnExit__hr} />
 //           </button>
 //         </div>
-      
+
 //       <StepsFooter/>
 //       </div>
 //     </section>
 //   );
 // };
 // export default StepsMenu;
-
-
-
-
-

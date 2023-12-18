@@ -70,7 +70,7 @@ const Settlement: React.FC = () => {
           </div>
           <div className={styles.sectionAll__CardParticipants}>
             <div className={styles.sectionAll__cardsItemPeopls}>
-                <h2 className={styles.cardsItemPeopls__title}>Участники</h2>
+              <h2 className={styles.cardsItemPeopls__title}>Участники</h2>
               <div className={styles.cardsItemPeopls__FioPeopls}>
                 <p className={styles.cardsItemPeopls__text}>
                   Иванов Иван Иванович
@@ -83,12 +83,12 @@ const Settlement: React.FC = () => {
               </div>
               <div className={styles.cardsItemPeopls__FioPeopls}>
                 <p className={styles.cardsItemPeopls__text}>
-                    Петрова Ксения Петровна
+                  Петрова Ксения Петровна
                 </p>
               </div>
               <div className={styles.cardsItemPeopls__FioPeopls}>
                 <p className={styles.cardsItemPeopls__text}>
-                    Иванова Эмилия Сергеевна
+                  Иванова Эмилия Сергеевна
                 </p>
               </div>
             </div>
