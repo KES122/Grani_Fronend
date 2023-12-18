@@ -1,10 +1,11 @@
 import styles from './header.module.scss'
+import React from 'react';
 import BtnHeader from './BtnRegistration'
 import BtnEnter from './BtnEnter'
-import MenuBurg from './burgerMenu/MenuBurg'
+import HamburgerMenu from './burgerMenu/HamburgerMenu'
 
 
-const Header = () =>{
+const Header: React.FC  = () =>{
     return( 
         <section className={styles.mainSection}>
             <div className={styles.mainSection__iconBox}>
@@ -34,7 +35,7 @@ const Header = () =>{
             
             <img className={styles.mainSection__ShopIcon} src="icons/icons-header/shopping-cartHeader.svg" alt="" />
             <img className={styles.mainSection__SearchIcon} src="icons/icons-header/searchHeader.svg" alt="" />
-            <MenuBurg/>
+            <HamburgerMenu/>
         </section>
     );
 }

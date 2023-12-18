@@ -23,16 +23,12 @@
         width: 750px;
         border-radius: 20px;
         border: 1px solid #C2BFBF;
-
-
     }
 }
 
 .ChoicePart {
     &__CheckBoxPart {
         display: flex;
-
-
     }
 }
 
@@ -49,7 +45,6 @@
 .ChoicePart {
 
     &__description {
-
         margin-left: 25px;
     }
 }
@@ -63,7 +58,5 @@
         font-style: italic;
         font-weight: 400;
         line-height: normal;
-
     }
-
 }
