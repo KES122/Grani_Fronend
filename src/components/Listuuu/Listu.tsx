@@ -33,7 +33,7 @@ const CheckBox = () => {
                             <p className={style.checkBoxDescription__p}>"Много текста"</p>
                         </div>
                     </ul>
-                </div>               
+                </div>
             </div>
         </section>
     )
