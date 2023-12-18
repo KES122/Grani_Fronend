@@ -6,9 +6,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/steps1/HomePage/Home.tsx";
 import Page2 from "./Pages/steps1/Forum/Page2.tsx";
 import CardsArea from "./Pages/steps2/Cards-area/Cards-area.tsx";
-import Settelement from "./Pages/steps3/Settlement/Settlement.tsx";
 import BackBtn from "./Pages/steps3/Settlement/btn-back/BackBtn.tsx";
 import ApplicationPage3 from "./Pages/steps1/Forum2/applicationPage3.tsx";
+import Checklist from "./Pages/steps2/Booking-checklist/Checklist.tsx";
+import Settlement from "./Pages/steps3/Settlement/Settlement.tsx";
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -30,12 +31,16 @@ const router = createBrowserRouter([
         element: <CardsArea />,
       },
       {
-        path: "/Settlement",
-        element: <Settelement />,
+        path: "/Booking-checklist",
+        element: <Checklist />,
       },
       {
         path: "/BackBtn",
         element: <BackBtn />,
+      },
+      {
+        path: "/Settlement",
+        element: <Settlement/>,
       },
     ],
   },

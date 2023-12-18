@@ -16,7 +16,7 @@ const StepsMenu = () => {
   const steps: Step[] = [
     { id: 1, title: "1 шаг-анкета", path: "/" },
     { id: 2, title: "2 шаг-бронь площадки", path: "/Cards-area" },
-    { id: 3, title: "3 шаг-логистика", path: "/Settlement" },
+    { id: 3, title: "3 шаг-логистика", path: "/Booking-checklist" },
     { id: 4, title: "4 шаг-расписание", path: "/Settlement" },
     { id: 5, title: "5 шаг-документация", path: "/Settlement" },
     { id: 6, title: "6 шаг-оплата", path: "/Settlement" },
