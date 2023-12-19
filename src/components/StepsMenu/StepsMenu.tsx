@@ -18,7 +18,7 @@ const StepsMenu = () => {
     { id: 2, title: "2 шаг-бронь площадки", path: "/Cards-area" },
     { id: 3, title: "3 шаг-логистика", path: "/Booking-checklist" },
     { id: 4, title: "4 шаг-расписание", path: "/Settlement" },
-    { id: 5, title: "5 шаг-документация", path: "/Settlement" },
+    { id: 5, title: "5 шаг-документация", path: "/Checklist-documents" },
     { id: 6, title: "6 шаг-оплата", path: "/Settlement" },
     { id: 7, title: "7 шаг-инвентарь", path: "/Settlement" },
     { id: 8, title: "8 шаг-турнирная сетка", path: "/Settlement" },
