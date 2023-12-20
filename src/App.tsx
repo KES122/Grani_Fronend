@@ -1,6 +1,6 @@
 import React from 'react'
-import SevenOne from './components/Seven One/SevenOne'
-
+import Award from './components/AwardEleven/Award'
+// import SevenOne from './components/Seven One/SevenOne'
 // import Listu from './components/Listuuu/Listu'
 // import FloorCarts from './components/Floor carts/FloorCarts'
 // import Button from './components/Button'
@@ -11,7 +11,8 @@ const App = () => {
       {/* <Button /> */}
       {/* <FloorCarts/> */}
       {/* <Listu/> */}
-      <SevenOne />
+      {/* <SevenOne /> */}
+      <Award />
     </div>
   )
 }

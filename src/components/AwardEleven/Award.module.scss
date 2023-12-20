@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.checkBox {
+    &__checkBoxComponent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__checkBoxDescription {
+        margin-left: 25px;
+    }
+}
+
+.headerBox {
+    &__title {
+        display: flex;
+        height: 28px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+        color: #000;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    &__inputCheck {
+        height: 28px;
+        width: 28px
+    }
+}
+
+.checkBoxComponent {
+    &__checkBoxTitle {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        margin: 0;
+    }
+}
+
+.checkBoxDescription {
+    &__p {
+        color: #000;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 600;
+        margin: 0;       
+    }
+}
+
+.MainPart {
+    &__titlePart {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__buttonsUnderTheTitle {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.buttonsUnderTheTitle {
+    &__rightPart {
+        display: flex;
+            color: #69b0b1;
+            font-family: 'Times New Roman';
+            width: 250px;
+            height: 70px;
+            padding: 35px 35px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px;
+            background: var(--unnamed, #69b0b1);
+    }
+}
+
+.titlePart {
+    &__title {
+        color: #000;
+        font-size: 50px;
+        font-weight: 700;
+    }
+}
+
+.LeftPart {
+    &__Edit {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.Edit {
+    &__editIco {
+        width: 100px;
+        height: 150px;
+    }
+}
