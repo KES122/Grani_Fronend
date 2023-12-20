@@ -11,6 +11,7 @@ import ApplicationPage3 from "./Pages/steps1/Forum2/applicationPage3.tsx";
 import Checklist from "./Pages/steps2/Booking-checklist/Checklist.tsx";
 import Settlement from "./Pages/steps3/Settlement/Settlement.tsx";
 import ChecklistDoc from "./Pages/steps5/Checklist-documents/ChecklistDoc.tsx";
+import TemplateBlank from "./Pages/steps5/Template-bank/TemplateBlank.tsx";
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/Checklist-documents",
         element: <ChecklistDoc/>
+      },
+      {
+        path: "/Template-bank",
+        element: <TemplateBlank/>
       },
     ],
   },
