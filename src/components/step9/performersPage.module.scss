@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.PerformersPageSection {
+    display: flex;
+
+    &__RightWrapper {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+}
+
+.RightWrapper {
+    &__titlePage {
+        color: #0A1641;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

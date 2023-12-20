@@ -2,7 +2,7 @@ import styles from './header.module.scss'
 import React from 'react';
 import BtnHeader from './BtnRegistration'
 import BtnEnter from './BtnEnter'
-import HamburgerMenu from './burgerMenu/HamburgerMenu'
+
 
 
 const Header: React.FC  = () =>{
@@ -35,7 +35,9 @@ const Header: React.FC  = () =>{
             
             <img className={styles.mainSection__ShopIcon} src="icons/icons-header/shopping-cartHeader.svg" alt="" />
             <img className={styles.mainSection__SearchIcon} src="icons/icons-header/searchHeader.svg" alt="" />
-            <HamburgerMenu/>
+
+            
+
         </section>
     );
 }
