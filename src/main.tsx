@@ -12,6 +12,8 @@ import Checklist from "./Pages/steps2/Booking-checklist/Checklist.tsx";
 import Settlement from "./Pages/steps3/Settlement/Settlement.tsx";
 import ChecklistDoc from "./Pages/steps5/Checklist-documents/ChecklistDoc.tsx";
 import TemplateBlank from "./Pages/steps5/Template-bank/TemplateBlank.tsx";
+import CompletionCheckOut from "./Pages/steps12/Completion-check-out/CompletionCheckOut.tsx";
+import SportsCamps from "./Pages/steps12/Sports-camps/SportsCamps.tsx";
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -51,6 +53,15 @@ const router = createBrowserRouter([
       {
         path: "/Template-bank",
         element: <TemplateBlank/>
+      },
+      // шаг 12
+      {
+        path: "/Completion-check-out",
+        element: <CompletionCheckOut/>
+      },
+      {
+        path: "/Sports-camps",
+        element: <SportsCamps/>
       },
     ],
   },

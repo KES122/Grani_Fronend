@@ -25,7 +25,7 @@ const StepsMenu = () => {
     { id: 9, title: "9 шаг-исполнители", path: "/Settlement" },
     { id: 10, title: "10 шаг-проведение выезда", path: "/Settlement" },
     { id: 11, title: "11 шаг-награждение", path: "/Settlement" },
-    { id: 12, title: "12 шаг-отчёт о проведении", path: "/Settlement" },
+    { id: 12, title: "12 шаг-отчёт о проведении", path: "/Completion-check-out" },
   ];
 
   const activeStepId = steps.find(
