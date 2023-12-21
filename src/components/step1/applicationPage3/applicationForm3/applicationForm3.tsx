@@ -36,7 +36,7 @@ const ApplicationForm3: React.FC = () => {
 
                     <div className={style.compForm__user}>
                         <p className={style.user__lab}>Роль</p>
-                        <select className={style.user__input} placeholder="Список" />
+                        <select className={style.user__input} />
                     </div>
                 </div>
             </div>
