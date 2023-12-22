@@ -1,5 +1,6 @@
 import React from 'react'
-import Award from './components/AwardEleven/Award'
+import SportCamps from './components/Sports Camps/SportCamps'
+// import Award from './components/AwardEleven/Award'
 // import SevenOne from './components/Seven One/SevenOne'
 // import Listu from './components/Listuuu/Listu'
 // import FloorCarts from './components/Floor carts/FloorCarts'
@@ -12,7 +13,8 @@ const App = () => {
       {/* <FloorCarts/> */}
       {/* <Listu/> */}
       {/* <SevenOne /> */}
-      <Award />
+      {/* <Award /> */}
+      <SportCamps />
     </div>
   )
 }
