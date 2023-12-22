@@ -1,5 +1,6 @@
 import './App.css'
-import PerformersPage from './components/step9/performersPage'
+import PaymentSummary from './components/step6/paymentSummary/paymentSummary'
+//import PerformersPage from './components/step9/performersPage'
 // import Logistics from './components/step3/logistics/logistics'
 // import VenueReservationPage3 from './components/step2/venueReservationPage3/venueReservationPage3'
 // import ApplicationPage3 from './components/step1/applicationPage3/applicationPage3'
@@ -11,11 +12,12 @@ function App() {
   return (
     //Коммент чтобы отобразить другую страницу для просмотра результата, пока только так(
     <>
-    {/* <Application/> */}
-    {/* <ApplicationPage3/> */}
-    {/* <VenueReservationPage3/> */}
+      {/* <Application/> */}
+      {/* <ApplicationPage3/> */}
+      {/* <VenueReservationPage3/> */}
       {/* <Logistics/> */}
-      <PerformersPage/>
+      {/* <PerformersPage/> */}
+      <PaymentSummary/>
     </>
   )
 }
