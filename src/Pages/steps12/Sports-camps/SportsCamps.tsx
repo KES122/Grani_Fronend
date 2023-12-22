@@ -1,5 +1,8 @@
 import Header from "../../../components/header/Header";
 import styles from "./SportsCamps.module.scss";
+import BtnCreatingAlbum from "./btn-creating-album/BtnCreatingAlbum";
+import BtnSavePhoto from "./btn-save-photo/BtnSavePhoto";
+import BtnShare from "./btn-share/BtnShare";
 
 const SportsCamps = () => {
   return (
@@ -51,6 +54,11 @@ const SportsCamps = () => {
               </div>
             </div>
           </div>
+        </div>
+        <BtnCreatingAlbum/>
+        <div className={styles.mainSection__buttons}>
+          <BtnSavePhoto/>
+          <BtnShare/>
         </div>
       </section>
     </>

@@ -39,6 +39,11 @@ $color-blue: #000230;
     color: $color-blue;
     margin-bottom: 126px;
   }
+  &__buttons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
 }
 
 .Photo {
@@ -65,6 +70,7 @@ $color-blue: #000230;
   }
   &__secondBoxImg {
     display: flex;
+    margin-bottom: 250px;
   }
   &__firstPhoto {
     width: 800px;
