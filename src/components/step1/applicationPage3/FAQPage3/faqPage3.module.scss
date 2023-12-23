@@ -3,6 +3,16 @@
     border: 0;
 }
 
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
 .FaqPage3 {
     &__buttonContainer {
         display: flex;

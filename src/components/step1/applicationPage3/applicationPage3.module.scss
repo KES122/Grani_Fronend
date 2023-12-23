@@ -2,7 +2,21 @@
     box-sizing: border-box;
     border: 0;
 }
-body{margin: 0;}
+
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+body {
+    margin: 0;
+}
+
 .applicationPage3 {
     &__mainImg {
         height: 393px;
@@ -16,7 +30,7 @@ body{margin: 0;}
     &__butBotton {
         display: flex;
         justify-content: center;
-        
+
     }
 }
 

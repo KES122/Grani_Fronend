@@ -1,29 +1,42 @@
-*{
+* {
     box-sizing: border-box;
 }
-.JumpBottonStepTwo{
+
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+.JumpBottonStepTwo {
     margin-top: 40px;
 }
-.buttonStyleStepTwo{
-    
-    &__buttJump{
+
+.buttonStyleStepTwo {
+
+    &__buttJump {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 370px;
-        height: 51px; 
+        height: 51px;
         background-color: #6BB1B68C;
         color: #FFF;
         font-size: 14px;
         font-weight: 700;
         border-radius: 10px;
-        
+
     }
-    &__img{
+
+    &__img {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 32px;
-        height: 14px; 
+        height: 14px;
     }
 }

@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
 .MainSectionLogistics {
     display: flex;
 
@@ -50,17 +60,17 @@
     }
 }
 
-    .Edit {
-        
-        &__editIco {
-            width: 50px;
-            height: 38px;
+.Edit {
 
-        }
+    &__editIco {
+        width: 50px;
+        height: 38px;
 
-        &__TextEdit {
-            color: #000000;
-            font-size: 28px;
-            text-decoration: none;
-        }
     }
+
+    &__TextEdit {
+        color: #000000;
+        font-size: 28px;
+        text-decoration: none;
+    }
+}

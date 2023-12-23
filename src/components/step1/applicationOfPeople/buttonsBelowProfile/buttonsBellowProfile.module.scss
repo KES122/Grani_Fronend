@@ -1,19 +1,30 @@
-*{
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+* {
     box-sizing: border-box;
 }
-.sectionButtonBelowProfile{
-    &__ourButtons{
+
+.sectionButtonBelowProfile {
+    &__ourButtons {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        
+
     }
 }
 
-.ourButtons{
-    &__But{
+.ourButtons {
+    &__But {
         width: 215px;
-        height: 50px; 
+        height: 50px;
         border-radius: 10px;
         background: rgba(108, 176, 176, 0.91);
         color: #FFF;
@@ -22,9 +33,10 @@
         margin-bottom: 28px;
 
     }
-    &__But1{
+
+    &__But1 {
         width: 330px;
-        height: 50px; 
+        height: 50px;
         border-radius: 10px;
         background: rgba(108, 176, 176, 0.91);
         color: #FFF;
@@ -32,4 +44,3 @@
         font-weight: 800;
     }
 }
-

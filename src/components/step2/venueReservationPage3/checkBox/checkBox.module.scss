@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
 .checkBox {
     &__checkBoxComponent {
         display: flex;
@@ -19,7 +29,7 @@
         font-size: 18px;
         font-style: italic;
         font-weight: 600;
-        
+
     }
 }
 
@@ -37,9 +47,9 @@
     }
 
     &__inputCheck {
-        min-width: 50px;    
+        min-width: 50px;
         min-height: 50px;
-        
+
     }
 }
 
