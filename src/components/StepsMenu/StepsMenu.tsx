@@ -20,11 +20,11 @@ const StepsMenu = () => {
     { id: 4, title: "4 шаг-расписание", path: "/Settlement" },
     { id: 5, title: "5 шаг-документация", path: "/Checklist-documents"},
     { id: 6, title: "6 шаг-оплата", path: "/Settlement" },
-    { id: 7, title: "7 шаг-инвентарь", path: "/Settlement" },
+    { id: 7, title: "7 шаг-инвентарь", path: "/Checklist-Inventory" },
     { id: 8, title: "8 шаг-турнирная сетка", path: "/Settlement" },
     { id: 9, title: "9 шаг-исполнители", path: "/Settlement" },
     { id: 10, title: "10 шаг-проведение выезда", path: "/Settlement" },
-    { id: 11, title: "11 шаг-награждение", path: "/Settlement" },
+    { id: 11, title: "11 шаг-награждение", path: "/Awarding" },
     { id: 12, title: "12 шаг-отчёт о проведении", path: "/Completion-check-out" },
   ];
 
