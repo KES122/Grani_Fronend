@@ -2,10 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
 .mainMenu {
-  max-width: 380px;
+  width: 460px;
   background-color: rgba(107, 177, 182, 0.55);
   padding: 20px;
+  min-height: 1135px;
   position: relative;
 }
 .mainMenu__mainIcon {
@@ -16,10 +21,22 @@
 .mainMenu__title {
   font-size: 24px;
   color: #07014c;
+  font-family: "Inter-Bol";
+}
+.mainMenu__mainTitle {
+  font-family: "Inter-Bol";
+  font-size: 26px;
+}
+
+.whiteBackground {
+  background: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
 }
 
 .menuSteps__steps {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -31,6 +48,7 @@
   font-size: 18px;
   color: #07014c;
   position: relative;
+  font-family: "Inter-Bol";
 }
 .menuSteps__iconStep {
   margin-right: 10px;
@@ -47,6 +65,7 @@
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
   margin-bottom: 550px;
+  font-family: "Inter-Bol";
 }
 
 .btnExit__hr {

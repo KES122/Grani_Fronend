@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './header.module.scss';
+import axios from 'axios';
 
 interface ModalProps {
   onClose: () => void;
@@ -7,17 +8,24 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = ({ onClose }: ModalProps) => {
   const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleRegister = () => {
-    if (!email || !phoneNumber || !password) {
+    if (!email || !password) {
       setErrorMessage('Пожалуйста, заполните все поля');
     } else {
-      console.log('Email:', email);
-      console.log('Phone Number:', phoneNumber);
-      console.log('Password:', password);
+      axios.post('5.35.82.78:8080/swagger-ui/index.html#/User/registerUser', {
+        email: email,
+        password: password,
+      })
+      .then((response) => {
+        console.log('Ответ на регистрацию:', response.data);
+      })
+      .catch((error) => {
+        console.error('Ошибка при регистрации:', error);
+      });
+
       setErrorMessage('');
       onClose();
     }
@@ -34,13 +42,6 @@ const Modal: React.FC<ModalProps> = ({ onClose }: ModalProps) => {
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-        />
-        <input
-          className={styles.inputField}
-          type="text"
-          placeholder="Номер телефона"
-          value={phoneNumber}
-          onChange={(e) => setPhoneNumber(e.target.value)}
         />
         <input
           className={styles.inputField}

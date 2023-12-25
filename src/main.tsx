@@ -16,6 +16,7 @@ import CompletionCheckOut from "./Pages/steps12/Completion-check-out/CompletionC
 import SportsCamps from "./Pages/steps12/Sports-camps/SportsCamps.tsx";
 import Awarding from "./Pages/steps11/Awarding/Awarding.tsx";
 import ChecklistInventory from "./Pages/steps7/Checklist-Inventory/ChecklistInventory.tsx";
+import TestConnection from "./testConnection.tsx";
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
         path: "/Sports-camps",
         element: <SportsCamps/>
       },
+      {
+        path: "testConnection",
+        element:<TestConnection/>
+      }
     ],
   },
 ]);

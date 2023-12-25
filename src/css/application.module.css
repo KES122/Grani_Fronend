@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
 .sectionApplication {
   width: 951.04px;
   height: 218.72px;
@@ -26,6 +30,7 @@
   color: #14164A;
   font-size: 32px;
   font-weight: 600;
+  font-family: "Inter-Bol";
 }
 .HeaderSection__Edit {
   display: flex;
@@ -40,6 +45,7 @@
   color: #000000;
   font-size: 16px;
   text-decoration: none;
+  font-family: "Inter-Bol";
 }
 
 .applicationData__photo {
@@ -62,6 +68,7 @@
   color: #000;
   font-size: 16px;
   font-weight: 700;
+  font-family: "Inter-Bol";
 }
 
 p {
@@ -78,4 +85,5 @@ p {
   height: 39px;
   color: #FFF;
   font-size: 16px;
+  font-family: "Inter-Bol";
 }/*# sourceMappingURL=application.module.css.map */

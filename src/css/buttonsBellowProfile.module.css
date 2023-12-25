@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
 .sectionButtonBelowProfile__ourButtons {
   display: flex;
   justify-content: flex-start;
@@ -17,6 +21,7 @@
   color: #FFF;
   font-size: 16px;
   margin-bottom: 28px;
+  font-family: "Inter-Bol";
 }
 .ourButtons__But1 {
   border: 0;
@@ -26,4 +31,5 @@
   background: rgba(108, 176, 176, 0.91);
   color: #FFF;
   font-size: 16px;
+  font-family: "Inter-Bol";
 }/*# sourceMappingURL=buttonsBellowProfile.module.css.map */

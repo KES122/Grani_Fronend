@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inter-Bol";
+  src: url(../fonts/Inter-Bold.ttf);
+}
 .footer__monual {
   display: flex;
   align-items: center;
@@ -13,6 +17,7 @@
 .footer__text {
   font-size: 18px;
   color: #07014c;
+  font-family: "Inter-Bol";
 }
 .footer__hr {
   margin-bottom: 20px;
@@ -29,6 +34,7 @@
   font-size: 18px;
   color: #07014c;
   text-align: center;
+  font-family: "Inter-Bol";
 }
 
 .icons__item {
