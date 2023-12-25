@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter-Reg";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bol";
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+
+// border-spacing: 20px 15px;
+
+.weekScheduleSection {
+    &__TitlePart {
+        color: #000;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+// .tablePart {
+//     &__headers {
+//         display: flex;
+//         justify-content: space-around;
+//     }
+// }
+
+
+
+.headers {
+    &__th1 {
+        color: #96A2B7;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__th2 {
+        color: #000;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+// .tablePart {
+//     &__coll {
+//         display: flex;
+//         flex-direction: column;
+//     }
+// }
+
+.coll {
+    &__time {
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

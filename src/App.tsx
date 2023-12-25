@@ -1,5 +1,6 @@
 import './App.css'
-import PaymentSummary from './components/step6/paymentSummary/paymentSummary'
+import WeekSchedule from './components/step10/weekSchedule'
+// import PaymentSummary from './components/step6/paymentSummary/paymentSummary'
 //import PerformersPage from './components/step9/performersPage'
 // import Logistics from './components/step3/logistics/logistics'
 // import VenueReservationPage3 from './components/step2/venueReservationPage3/venueReservationPage3'
@@ -17,7 +18,8 @@ function App() {
       {/* <VenueReservationPage3/> */}
       {/* <Logistics/> */}
       {/* <PerformersPage/> */}
-      <PaymentSummary/>
+      {/* <PaymentSummary/> */}
+      <WeekSchedule/>
     </>
   )
 }
